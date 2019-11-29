@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundlesize": "bundlesize"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-private:krtx/test-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bundlesize": "^0.18.0"
+  },
+  "bundlesize": [
+    {
+      "path": "./index.js",
+      "maxSize": "3 kB"
+    }
+  ]
+}
