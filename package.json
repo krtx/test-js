@@ -19,7 +19,7 @@
   "bundlesize": [
     {
       "path": "./index.js",
-      "maxSize": "3 kB"
+      "maxSize": "3 B"
     }
   ]
 }
