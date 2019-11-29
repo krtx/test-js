@@ -4,7 +4,7 @@ pipeline {
         stage ('init') {
             steps {
                 script {
-                    sh 'npm i'
+                    sh 'npm i && npm run bundlesize'
                 }
             }
         }
